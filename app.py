@@ -122,4 +122,4 @@ def calculate_bmi(height_cm, weight_kg):
   #  app.run(host='0.0.0.0', debug=True)
 if __name__ == "__main__":
     from waitress import serve
-    serve(app, host="0.0.0.0", port=8080)
+    serve(app, host="0.0.0.0", port=8780)
